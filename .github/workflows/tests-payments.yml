@@ -9,8 +9,3 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: cd payments && npm install && npm run test:ci
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
