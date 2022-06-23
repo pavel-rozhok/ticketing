@@ -1,8 +1,10 @@
 name: tests-orders
 
-on: 
-  pull_request
-  
+on:
+  pull_request:
+    path:
+      - 'tests/**'
+
 jobs:
   build:
     runs-on: ubuntu-latest
